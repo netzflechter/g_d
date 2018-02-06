@@ -1,8 +1,8 @@
 # g_d
-Assessment
+
+Task
 ------------
 
-Task:
 Create a program that accepts 2 files and inform the user if they are equal or different.
 
 ## Installation
