@@ -1,5 +1,6 @@
 # g_d
 Assessment
+------------
 
 Task:
 Create a program that accepts 2 files and inform the user if they are equal or different.
@@ -16,16 +17,16 @@ Install Bundler by running:
 
 ### Cloning Application
   
-  $ git clone https://github.com/netzflechter/g_d.git
-  $ cd g_d
-  $ bundle install
+    git clone https://github.com/netzflechter/g_d.git
+    cd g_d
+    bundle install
 
 ### Tests
 
 Tests are written using Rspec as testing framework.
 To run all tests simply type
   
-  $ rspec
+    rspec
 
 In the first iteration there are just some basic tests to get the framework up
 and running...
