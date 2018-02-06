@@ -1,7 +1,7 @@
 require 'pry'
 
 def compare(file1: nil, file2: nil)
-  similar = 'Files are similar'
+  similar = 'Files are equal'
   different = 'Files are different'
 
   res = FileUtils.compare_file(file1, file2)
