@@ -13,7 +13,7 @@ your machine.
 Gems are managed by Bundler through the Gemfile.
 Install Bundler by running:
 
-  $ gem install bundler
+    gem install bundler
 
 ### Cloning Application
   
@@ -33,6 +33,6 @@ and running...
 
 To use the method from the commandline, there is a raketask you can use.
 
-  $ rake compare[<name_of_file1>,<name_of_file2]
+    rake compare[<name_of_file1>,<name_of_file2>]
 
 
