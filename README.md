@@ -6,7 +6,7 @@ Task
 Create a program that accepts 2 files and inform the user if they are equal or different.
 
 ## Installation
-The program is written in Ruby, so you need an instance of Ruby and Rubygems on
+The program is written in Ruby, so you need an instance of Ruby (>= 2.2.0) and Rubygems on
 your machine.
 
 ### Bundler
@@ -31,8 +31,11 @@ To run all tests simply type
 In the first iteration there are just some basic tests to get the framework up
 and running...
 
-To use the method from the commandline, there is a raketask you can use.
+To use the method from the commandline, there is a rake task available:
 
     rake compare[<name_of_file1>,<name_of_file2>]
 
+The compare method is build on top of [FileUtils#compare_file](https://ruby-doc.org/stdlib-2.5.0/libdoc/fileutils/rdoc/FileUtils.html#method-c-compare_file) method.
 
+## TODO
+There is more stuff to do like improve the test coverage, error handling...
