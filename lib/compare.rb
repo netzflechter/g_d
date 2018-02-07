@@ -2,7 +2,7 @@ require 'pry'
 
 def compare(file1: nil, file2: nil)
   return "Error! Please provide some files as parameter in the following way: compare[file1,file2]" if (file1.nil? || file2.nil?)
-#  binding.pry
+
   similar = 'Files are equal'
   different = 'Files are different'
 
