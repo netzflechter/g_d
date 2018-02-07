@@ -33,7 +33,7 @@ and running...
 
 To use the compare method from the commandline, there is a rake task available:
 
-    rake compare[<name_of_file1>,<name_of_file2>]
+    rake compare[<name_or_path_of_file1>,<name_or_path_of_file2>]
 
 The compare method is build on top of the [FileUtils#compare_file](https://ruby-doc.org/stdlib-2.5.0/libdoc/fileutils/rdoc/FileUtils.html#method-c-compare_file) method.
 
