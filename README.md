@@ -31,6 +31,8 @@ To run all tests simply type
 In the first iteration there are just some basic tests to get the framework up
 and running...
 
+### Usage
+
 To use the compare method from the commandline, there is a rake task available:
 
     rake compare[<name_or_path_of_file1>,<name_or_path_of_file2>]
