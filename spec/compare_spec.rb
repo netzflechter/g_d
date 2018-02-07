@@ -10,6 +10,10 @@ context "File Services" do
     let(:file2) {'testfiles/file2.jpg'}
     let(:copy_of_file1) {'testfiles/copy_of_file1.jpg'}
 
+    it 'should return Error! when one parameter is not set' do
+      expect(compare(file1: nil, file2: file1)).to match(/Error!/)
+    end
+
     it 'should return "Files are equal" when comparing the same file' do
       expect(compare(file1: file1, file2: file1)).to match(equal)
     end
